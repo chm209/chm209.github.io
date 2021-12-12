@@ -11,8 +11,5 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-polyglot
-languages: ['ja', 'ko', 'en']
-default_lang: 'ko'
 exclude_from_localization: ['js', 'img', 'css']
 parallel_localization: false
