@@ -57,6 +57,10 @@ nav a {
     margin-right: 20px;
 }
 
+nav a:hover {
+    cursor: pointer;
+}
+
 /*
 header img {
     margin: 0 auto;
