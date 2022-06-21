@@ -2,14 +2,18 @@
 <html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     {% include top.html %}
-  </head>
-  <body>
-    <div class="container">
-      {% include nav.html %}
-      {{ content }}
-      <footer>
-        Copyright 2021 chm209 all right reserved
-      </footer>
-    </div>
-  </body>
+</head>
+<body>
+  <div class="nav_container">
+    {% include nav.html %}
+  </div>
+  <div class="main_container">
+    {{ content }}
+  </div>
+  <footer>
+    <a href="https://github.com/chm209">chm209&nbsp;</a>
+    <a>&nbsp;changmin7537@gmail.com</a>
+    <p>Copyright 2021-2022 chm209 all right reserved</p>
+  </footer>
+</body>
 </html>
