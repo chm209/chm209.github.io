@@ -1,0 +1,90 @@
+/* 스크롤바 없애기 */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+/* 스타일 초기화 */
+a:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+a, a:active, a:after {
+    text-decoration: none;
+    cursor: default;
+    color: #333333;
+}
+
+ul,li {
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    display: inline;
+}
+
+/* 스타일 */
+html, body {
+    height:  100%;
+    width: 100%;
+    max-width: 2560px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items : center;
+}
+
+.nav_container #title_font:hover, .nav_container .nav_font:hover {
+    cursor: pointer;
+}
+
+.nav_container #title_font {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.nav_container .nav_font {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.main_container {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: black;
+    color: #eeeeee;
+}
+
+footer a {
+    color: #eeeeee;
+}
+
+
+/*
+.container {
+    width: 1000px;;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 100px;
+    background-color: #ffffff;
+}
+*/
