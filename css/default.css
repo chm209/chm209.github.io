@@ -66,25 +66,18 @@ html, body {
 }
 
 footer {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     padding-left: 15%;
     padding-right: 15%;
     background-color: black;
     color: #eeeeee;
 }
 
+footer p {
+    margin-bottom: 0px;
+}
+
 footer a {
     color: #eeeeee;
 }
-
-
-/*
-.container {
-    width: 1000px;;
-    height: auto;
-    margin: 0 auto;
-    padding: 50px 100px;
-    background-color: #ffffff;
-}
-*/
