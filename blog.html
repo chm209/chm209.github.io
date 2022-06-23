@@ -3,15 +3,17 @@ title: Blog
 layout: default
 permalink: /blog/
 ---
-
-<ul class="blog-list">
+<p class="index-header">Blog Posts</p>
+<div id="recent_post">
     {% for post in site.posts %}
-    <a class="blog-item-list" href="{{ site.baseurl }}{{ post.url }}">
-      <li>
-          <span class="blog-item-date">{{ post.date | date: "%d %b %Y" }}</span>
-          <div class="blog-item-title">{{ post.title }}</div>
-      </li>
+    <a class="item" href="{{ site.baseurl }}{{ post.url }}">
+        <li>
+            <img class="thumbnail" src="{{ site.baseurl }}../{{ post.image }}"/>
+            <p class="title">{{ post.title }}</p>
+            <p class="preview">{{ post.preview }}</p>
+            <span class="date">{{ post.date | date: "%d %b %Y" }}</span>
+        </li>
     </a>
     {% endfor %}
-  </ul>
+</div>
  
