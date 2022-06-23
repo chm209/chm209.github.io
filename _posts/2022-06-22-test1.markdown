@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: post
 title:  "index 페이지 최근 작성글 포스팅 테스트 1"
 date:   2022-06-21 20:34:02 +0900
-categories: post test
+categories: test
 preview: "최근 작성글 포스트 1 테스트"
 image: ./assets/image/2022-06-21/t2.webp
 ---
