@@ -35,7 +35,7 @@ html, body {
 }
 
 .nav_container {
-    max-width: 1500px;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -59,7 +59,7 @@ html, body {
 }
 
 .main_container {
-    max-width: 1500px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0;
 }
@@ -71,7 +71,7 @@ html, body {
 }
 
 .footer_container footer {
-    max-width: 1500px;
+    max-width: 1000px;
     padding: 25px 15%;
     margin: 0 auto;
 }

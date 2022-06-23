@@ -2,6 +2,40 @@
 title: Home
 layout: default
 ---
-<img src="/image/banner.webp"/>
-<h1>Recent Blog Posts</h1>
-<h1>Pinned Project</h1>
+<!-- recent posts -->
+<p class="index-header">Recent Blog Posts</p>
+<div id="recent_post">
+    {% for post in site.posts limit:2 %}
+    <a class="item" href="{{ site.baseurl }}{{ post.url }}">
+        <li>
+            <img class="thumbnail" src="{{ site.baseurl }}{{ post.image }}"/>
+            <p class="title">{{ post.title }}</p>
+            <p class="preview">{{ post.preview }}</p>
+            <span class="date">{{ post.date | date: "%d %b %Y" }}</span>
+        </li>
+    </a>
+    {% endfor %}
+</div>
+<!-- archive project -->
+<p class="index-header">Archive Project</p>
+<div id="archive_project">
+    <a class="item" href="https://github.com/chm209/Kaomoji-selector">
+        <p class="title">Kaomoji Selector</p>
+        <p class="preview">Kaomoji (JP emoji) selector program</p>
+        <span class="tag dotnet">.NET</span>
+        <span class="tag windows">Windows</span>
+    </a>
+    <a class="item" href="https://github.com/chm209/Image-sorter">
+        <p class="title">Image Sorter</p>
+        <p class="preview">Image File Name Sorting Program</p>
+        <span class="tag dotnet">.NET</span>
+        <span class="tag windows">Windows</span>
+    </a>
+    <a class="item" href="https://github.com/chm209/1942">
+        <p class="title">1942</p>
+        <p class="preview">c language mud game</p>
+        <span class="tag windows">Windows</span>
+        <span class="tag mysql">MySql</span>
+        <span class="tag mud">MUD</span>
+    </a>
+</div>

@@ -1,6 +1,105 @@
-.main_container img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+/* recent posts style */
+.index-header {
+    font-size: 26px;
+    font-weight: 800;
+    margin: 40px 0 20px 0;
+}
+
+#recent_post {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#recent_post .item:hover {
+    cursor: pointer;
+}
+
+#recent_post .item .title {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 6px 0 6px 0;
+    color: #333333;
+}
+
+#recent_post .item .preview {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 5px 0;
+    color: black;
+}
+
+#recent_post .item .date {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+}
+
+#recent_post .item .thumbnail {
+    width: 485px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* archive project style */
+#archive_project {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#archive_project .item {
+    padding: 2% 0 2% 3%;
+    width: calc(485px - 3%);
+    height: calc(160px - 4%);
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#archive_project .item:hover {
+    cursor: pointer;
+}
+
+#archive_project .item .title {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 6px 0 6px 0;
+    color: #333333;
+}
+
+#archive_project .item .preview {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    color: black;
+}
+
+#archive_project .item .tag {
+    padding: 1% 1.5%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+
+#archive_project .item .dotnet {
+    color: #333333;
+    background-color: #ffdddd;
+}
+
+#archive_project .item .windows {
+    color: white;
+    background-color: #445588;
+}
+
+#archive_project .item .mysql {
+    color: white;
+    background-color: #829e7f;
+}
+
+#archive_project .item .mud {
+    color: #333333;
+    background-color: #e5c78c;
 }
