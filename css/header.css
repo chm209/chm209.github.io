@@ -1,0 +1,36 @@
+header #header-table {
+    width: 1130px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+#header-table td {
+    height: 60px;
+}
+
+#header-table #header-image {
+    width: 160px;
+}
+
+#header-table img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-block {
+    width: 20px;
+}
+
+#header-table #header-name {
+    vertical-align : bottom;
+    font-size: 1.9em;
+    font-weight: 800;
+}
+
+#header-table #header-description {
+    vertical-align : top;
+    font-size: 0.8em;
+    font-weight: 400;
+}
