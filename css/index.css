@@ -1,52 +1,38 @@
-/* recent posts style */
-.index-header {
-    font-size: 26px;
-    font-weight: 800;
-    margin: 40px 0 20px 0;
+section #pr li {
+    display: block;
+    margin-bottom: 2px;
 }
 
-#recent_post {
+#project-wrapper {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#recent_post .item {
-    margin-bottom: 40px;
+#project-wrapper .item {
+    padding: 2%;
+    width: calc(550px - 4%);
+    height: calc(160px - 4%);
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    margin-bottom: 30px;
 }
 
-#recent_post .item:hover {
+#project-wrapper .item:hover {
     cursor: pointer;
 }
 
-#recent_post .item .title {
-    font-size: 22px;
-    font-weight: 800;
-    margin: 6px 0 6px 0;
-    color: #333333;
+#project-wrapper .item p {
+    margin: 0;
+    padding: 0;
 }
 
-#recent_post .item .preview {
-    font-size: 18px;
-    font-weight: 400;
-    margin: 0 0 5px 0;
-    color: black;
+#project-wrapper .title {
+    font-weight: 700;
 }
 
-#recent_post .item .date {
-    font-size: 14px;
-    font-weight: 400;
-    color: #999999;
-}
 
-#recent_post .item .thumbnail {
-    width: 485px;
-    height: 250px;
-    border-radius: 10px;
-    object-fit: cover;
-}
 
-/* archive project style */
 #archive_project {
     display: flex;
     justify-content: space-between;
@@ -55,16 +41,14 @@
 
 #archive_project .item {
     padding: 2% 0 2% 3%;
-    width: calc(485px - 3%);
+    width: calc(450px - 3%);
     height: calc(160px - 4%);
     background-color: #f7f7f7;
     border-radius: 10px;
     margin-bottom: 30px;
 }
 
-#archive_project .item:hover {
-    cursor: pointer;
-}
+
 
 #archive_project .item .title {
     font-size: 22px;

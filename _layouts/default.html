@@ -4,18 +4,15 @@
     {% include top.html %}
 </head>
 <body>
-  <div class="nav_container">
-    {% include nav.html %}
-  </div>
-  <div class="main_container">
-    {{ content }}
-  </div>
-  <div class="footer_container">
-    <footer>
-      <a href="https://github.com/chm209">chm209&nbsp;</a>
-      <a>&nbsp;changmin7537@gmail.com</a>
-      <p>Copyright 2021-2022 chm209 all right reserved</p>
-    </footer>
-  </div>
+<header>
+  {% include header.html %}
+</header>
+<section>
+  {{ content }}
+</section>
+<!--
+<footer>
+  <p>Copyright 2021-2023 chm209 all right reserved</p>
+</footer>-->
 </body>
 </html>
