@@ -3,3 +3,10 @@ footer p {
     color: #212121;
     margin-bottom: 0;
 }
+
+@media (max-width: 480px) {
+    footer p {
+        word-break: keep-all;
+        margin-bottom: 0;
+    }   
+}

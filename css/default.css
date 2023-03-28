@@ -53,3 +53,19 @@ footer {
     padding: 1%;
     text-align: center;
 }
+
+@media (max-width: 480px)  {
+    header {
+        width: 100%;
+        height: auto;
+    }
+    
+    section {
+        width: 85%;
+        padding-top: 2%;
+    }
+    
+    footer {
+        width: 100%;
+    }
+}
