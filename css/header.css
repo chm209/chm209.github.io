@@ -30,13 +30,25 @@ header #mobile {
 #desktop-table #header-name {
     vertical-align : bottom;
     font-size: 1.9rem;
-    font-weight: 800;
+    font-weight:600;
+    height: 90%;
 }
 
 #desktop-table #header-description {
-    vertical-align : top;
-    font-size: 1rem;
+    vertical-align : middle;
+    font-size: 0.9rem;
     font-weight: 400;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 10%;
+}
+
+#desktop-table #header-icon {
+    vertical-align : top;
+}
+
+#desktop-table #header-icon a:hover {
+    cursor: pointer;
 }
 
 @media (max-width: 480px) {
