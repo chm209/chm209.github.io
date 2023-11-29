@@ -1,4 +1,4 @@
-title: chm209 portfolio page
+title: Changmin Lee's page
 email: changmin7537@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   설명
@@ -13,3 +13,4 @@ plugins:
   - jekyll-feed
 exclude_from_localization: ['js', 'img', 'css']
 parallel_localization: false
+sass: false
