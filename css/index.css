@@ -1,14 +1,3 @@
-/* pr */
-section #pr {
-    display: block;
-    margin-bottom: 40px;
-}
-
-section #pr li, section #pr2 li {
-    display: block;
-    margin-bottom: 2px;
-}
-
 /* project */
 section #project-wrapper {
     display: flex;
