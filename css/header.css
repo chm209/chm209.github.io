@@ -1,90 +1,90 @@
 header #desktop-table {
-    width: 1000px;
-    height: 100%;
-    margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
 }
 
 header #mobile {
-    display: none;
+  display: none;
 }
 
 #desktop-table td {
-    height: 60px;
+  height: 60px;
 }
 
 #desktop-table #header-image {
-    width: 160px;
+  width: 160px;
 }
 
 #desktop-table img {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    float: left;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  float: left;
 }
 
 #desktop-table .header-block {
-    width: 20px;
+  width: 20px;
 }
 
 #desktop-table #header-name {
-    vertical-align : bottom;
-    font-size: 1.9rem;
-    font-weight:600;
-    height: 90%;
+  vertical-align: bottom;
+  font-size: 1.9rem;
+  font-weight: 600;
+  height: 90%;
 }
 
 #desktop-table #header-description {
-    vertical-align : middle;
-    font-size: 0.9rem;
-    font-weight: 400;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    height: 10%;
+  vertical-align: middle;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  height: 10%;
 }
 
 #desktop-table #header-icon {
-    vertical-align : top;
+  vertical-align: top;
 }
 
 #desktop-table #header-icon a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @media (max-width: 480px) {
-    header #desktop-table {
-        display: none;
-    }
+  header #desktop-table {
+    display: none;
+  }
 
-    header #mobile {
-        display: table;
-        height: auto;
-        padding: 5% 0;
-    }
+  header #mobile {
+    display: table;
+    height: auto;
+    padding: 5% 0;
+  }
 
-    header #mobile #header-image {
-        text-align: center;
-    }
+  header #mobile #header-image {
+    text-align: center;
+  }
 
-    #mobile #header-image img {
-        width: 50%;
-        height: 50%;
-        border-radius: 100%;
-    }
+  #mobile #header-image img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+  }
 
-    #mobile #header-name {
-        text-align: center;
-        font-size: 1.9rem;
-        font-weight: 800;
-    }
+  #mobile #header-name {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 800;
+  }
 
-    #mobile #header-description {
-        text-align: center;
-        font-size: 0.8em;
-        font-weight: 400;
-    }
+  #mobile #header-description {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 400;
+  }
 
-    #mobile #header-icon {
-        text-align: center;
-    }
+  #mobile #header-icon {
+    text-align: center;
+  }
 }
