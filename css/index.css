@@ -106,12 +106,6 @@ section #project-wrapper {
     color: #555555;
   }
 
-  #project-wrapper .item .top .description {
-    font-size: 1rem;
-    font-weight: 500;
-    word-break: break-all;
-  }
-
   #project-wrapper span {
     display: block;
     padding: 0.5% 1%;
